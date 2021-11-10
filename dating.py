@@ -6,7 +6,7 @@
 
 
 def main():
-    # this function checks if you quolify to date my grand daughter
+    # this function checks if you qualify to date my granddaughter
 
     # input
     user_wealth = input("Are you rich?(yes or no): ")
@@ -18,12 +18,15 @@ def main():
         print("You are accepted to date my grandchild.")
         print("")
     elif user_wealth == "no" or user_looking == "no":
-        print("You are not accepted to date my grandchild, come back when you get rich")
+        print("Not accepted, come back when you get rich.")
         print("")
     else:
-        print("Those words are invalid input, try again.")
+        print("Invalid input, try again.")
         print("")
+
     print("Thanks for checking.")
+
+    print("\nDone.")
 
 
 if __name__ == "__main__":
